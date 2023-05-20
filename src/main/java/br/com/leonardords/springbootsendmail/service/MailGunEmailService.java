@@ -1,7 +1,7 @@
 package br.com.leonardords.springbootsendmail.service;
 
 import br.com.leonardords.springbootsendmail.dto.EmailDto;
-import br.com.leonardords.springbootsendmail.service.exception.MailException;
+import br.com.leonardords.springbootsendmail.service.exception.EmailException;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -27,7 +27,7 @@ public class MailGunEmailService implements EmailService {
 
       mailSender.send(message);
     } catch (MessagingException ex) {
-      throw new MailException(ex.getMessage());
+      throw new EmailException(ex.getMessage());
     }
   }
 }
