@@ -1,6 +1,6 @@
 package br.com.leonardords.springbootsendmail.controller;
 
-import br.com.leonardords.springbootsendmail.EmailDto;
+import br.com.leonardords.springbootsendmail.dto.EmailDto;
 import br.com.leonardords.springbootsendmail.service.EmailService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

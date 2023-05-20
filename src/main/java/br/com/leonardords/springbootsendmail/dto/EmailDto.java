@@ -1,4 +1,4 @@
-package br.com.leonardords.springbootsendmail;
+package br.com.leonardords.springbootsendmail.dto;
 
 import java.io.Serial;
 import java.io.Serializable;

@@ -1,6 +1,6 @@
 package br.com.leonardords.springbootsendmail.service;
 
-import br.com.leonardords.springbootsendmail.EmailDto;
+import br.com.leonardords.springbootsendmail.dto.EmailDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

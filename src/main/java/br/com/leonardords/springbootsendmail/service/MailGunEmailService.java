@@ -1,6 +1,6 @@
 package br.com.leonardords.springbootsendmail.service;
 
-import br.com.leonardords.springbootsendmail.EmailDto;
+import br.com.leonardords.springbootsendmail.dto.EmailDto;
 import br.com.leonardords.springbootsendmail.service.exception.MailException;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
